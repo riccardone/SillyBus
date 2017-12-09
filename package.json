@@ -1,0 +1,24 @@
+{
+    "name": "sillybus",
+    "description": "Simple publish/subscribe mechanism to communicate between modules",
+    "version": "1.0.0",
+    "author": "Riccardo Di Nuzzo <riccardo@dinuzzo.it>",
+    "files": [
+      "sillybus.js"
+    ],
+    "keywords": [
+      "pub/sub",
+      "loose coupling",
+      "messages"
+    ],
+    "license": "MIT",
+    "main": "sillybus.js",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:riccardone/SillyBus.git"
+    },
+    "scripts": {
+      "test": "node test/test.js | tap-spec"
+    }
+  }
+  
